@@ -4,3 +4,104 @@
     2022-05636
     Exercise 2
 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif; 
+            background-color: beige; 
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .topBorder {
+            background-color: darkslategray; 
+            padding: 20px 10px; 
+            color: white; 
+            text-align: center; 
+            position: relative; 
+        }
+
+        .topBorder p {
+            font-size: 24px; 
+            margin: 0; 
+        }
+
+        
+        .logo {
+            position: absolute; 
+            left: 10px; 
+            max-width: 100px; 
+            height: auto; 
+        }
+
+
+        .content {
+            flex: 1; 
+            padding: 20px; 
+            text-align: left; 
+            display: flex; 
+        }
+
+        .content-text {
+            flex: 1; 
+            max-width: 50%; 
+            text-align: justify; 
+        }
+
+        .content h1 {
+            text-align: center; 
+            background-color: black; 
+            color: white; 
+            padding: 10px; 
+        }
+
+        .content img {
+            max-width: 1000px; 
+            height: 700px; 
+            margin-left: 70px; 
+            position: absolute; 
+            top: 100px; 
+        }
+    </style>
+    <title>My Portfolio</title>
+</head>
+<body>
+    <div class="container">
+        <div class="topBorder">
+            <img src="logo.png" alt="Logo" class="logo">
+            <p> Jerico Dane's Portfolio </p>
+        </div>
+        <div class="content">
+            <div class="content-text">
+                <h1>Jerico Dane Sanchez</h1>
+                <p> I was born in Pateros, Metro Manila, in 2003.
+                    I enjoy using computers and have always had an urge to learn more in the field of technology.
+                    I took the STEM strand in high school and finished my secondary education in Pateros Catholic School.
+                    Now in college, I went to the University of the Philippines Los Baños and I am graduating with a degree in BS Computer Science. 
+                    I am a Frontend Software Engineer with an expertise in React.
+                    I enjoy watching movies in the cinema and playing video games in my free time.   </p>
+            </div>
+            <img src="jericopic.png" alt="Jerico's Picture">
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
